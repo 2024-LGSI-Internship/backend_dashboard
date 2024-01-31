@@ -12,7 +12,7 @@ def helloworld():
      return 'hello world to flask 5000'
 
 #model name 
-model = load('rf_model_comp.joblib')
+model = load('models/gb_model_comp.joblib')
 
 #file name 
 csv_file = 'AIRCON_9_0130.csv'
